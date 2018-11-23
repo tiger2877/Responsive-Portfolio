@@ -288,6 +288,7 @@ h3, h2 {
   nav {
     float: none;
     margin-top: 25px;
+    width: 100%;
   }
 
   body {
