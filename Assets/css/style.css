@@ -274,7 +274,7 @@ input[type=submit] {
 }
 
 /* Standard syntax from https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation1 */
-@keyframes test {
+@keyframes changecolor {
   from {background: url("../images/leaves.png");}
   to {background-color: yellow;}
 }
@@ -296,6 +296,20 @@ input[type=submit] {
     border-bottom: 2px solid #cccccc;
   }
 
+  #logo {
+  float: left;
+  width: 250px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+}
+  
   body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 15px;
@@ -413,6 +427,20 @@ input[type=submit] {
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
   }
+  
+  #logo {
+  float: left;
+  width: 250px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+}
 
   body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
